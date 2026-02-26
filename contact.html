@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Inkvoice Creative Agency</title>
+    <meta name="description" content="Get in touch with our team to discuss your next creative project">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">Inkvoice</a></div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 50vh; background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title" data-split-text>Get In Touch</h1>
+            <p class="hero-subtitle">Let's discuss your next creative project and bring your vision to life</p>
+        </div>
+    </section>
+
+    <!-- Floating 3D Divs -->
+    <div class="floating-divs">
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles"></div>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <div class="contact-form-section reveal">
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <p class="section-subtitle">We'd love to hear about your project and how we can help</p>
+                    
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Your Name *</label>
+                                <span class="form-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Email Address *</label>
+                                <span class="form-border"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone">
+                                <label for="phone">Phone Number</label>
+                                <span class="form-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="company" name="company">
+                                <label for="company">Company</label>
+                                <span class="form-border"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="service" name="service">
+                                <option value="">Select a Service</option>
+                                <option value="brand-design">Brand Design</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="mobile-apps">Mobile Apps</option>
+                                <option value="digital-marketing">Digital Marketing</option>
+                                <option value="consulting">Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="service">Service Interested In</label>
+                            <span class="form-border"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <label for="message">Tell us about your project *</label>
+                            <span class="form-border"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="budget" name="budget">
+                            <label for="budget">Estimated Budget</label>
+                            <span class="form-border"></span>
+                        </div>
+                        
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our newsletter for updates and insights</label>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="cta-button">Send Message</button>
+                            <p class="form-note">We'll respond within 24 hours</p>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info-section reveal">
+                    <div class="contact-info-card">
+                        <h3>Let's Connect</h3>
+                        <p>Ready to start your next project? Reach out to us through any of the following channels, and our team will get back to you promptly.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <p>hello@inkvoice.com</p>
+                                    <p>support@inkvoice.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">📱</div>
+                                <div class="contact-details">
+                                    <h4>Phone</h4>
+                                    <p>+1 (555) 123-4567</p>
+                                    <p>Mon-Fri 9AM-6PM EST</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <h4>Office</h4>
+                                    <p>123 Creative Street</p>
+                                    <p>Design City, DC 12345</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-section">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link">📘</a>
+                                <a href="#" class="social-link">🐦</a>
+                                <a href="#" class="social-link">📷</a>
+                                <a href="#" class="social-link">💼</a>
+                                <a href="#" class="social-link">🎨</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section map-section">
+        <div class="container">
+            <div class="map-container reveal">
+                <h2 class="section-title">Visit Our Office</h2>
+                <p class="section-subtitle">Stop by our creative space to discuss your project in person</p>
+                
+                <div class="map-wrapper">
+                    <div class="map-placeholder">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Office location map" class="map-image">
+                        <div class="map-overlay">
+                            <div class="map-info">
+                                <h3>Inkvoice Creative Agency</h3>
+                                <p>123 Creative Street<br>Design City, DC 12345</p>
+                                <a href="#" class="map-link">Get Directions →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="office-hours">
+                    <h3>Office Hours</h3>
+                    <div class="hours-grid">
+                        <div class="hours-item">
+                            <span class="day">Monday - Friday</span>
+                            <span class="time">9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Saturday</span>
+                            <span class="time">10:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Sunday</span>
+                            <span class="time">Closed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background: var(--light);">
+        <div class="container">
+            <div class="faq-section reveal">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Common questions about our services and process</p>
+                
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>How long does a typical project take?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Project timelines vary depending on scope and complexity. A simple website might take 4-6 weeks, while a comprehensive brand identity and web development project could take 3-6 months. We'll provide a detailed timeline during our initial consultation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What is your pricing structure?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer flexible pricing options including fixed-price projects, hourly rates, and retainer agreements. Pricing depends on project scope, timeline, and specific requirements. Contact us for a custom quote tailored to your needs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Do you work with international clients?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! We work with clients globally and have experience managing projects across different time zones. We use collaborative tools and communication platforms to ensure smooth project delivery regardless of location.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What industries do you specialize in?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>While we have experience across various industries, we specialize in technology startups, e-commerce, professional services, healthcare, and creative industries. Our approach is adaptable to any sector's unique needs and challenges.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Can you help with ongoing maintenance and support?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer comprehensive maintenance and support packages to ensure your digital assets continue to perform optimally. This includes regular updates, security monitoring, performance optimization, and technical support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="reveal">Ready to Start Your Project?</h2>
+            <p class="reveal">Let's create something extraordinary together</p>
+            <a href="#contact-form" class="cta-button reveal">Get Started Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Inkvoice</h3>
+                    <p>Transforming ideas into digital experiences that inspire, engage, and convert.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Brand Design</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                    <p>hello@inkvoice.com</p>
+                    <p>+1 (555) 123-4567</p>
+                    <p>123 Creative Street<br>Design City, DC 12345</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Inkvoice. All rights reserved. Crafted with passion and creativity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">↑</a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

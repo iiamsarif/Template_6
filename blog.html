@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Inkvoice Creative Agency</title>
+    <meta name="description" content="Insights, trends, and tutorials from our team of digital experts">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">Inkvoice</a></div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 50vh; background-image: url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title" data-split-text>Our Blog</h1>
+            <p class="hero-subtitle">Insights, tutorials, and trends from our team of creative experts</p>
+        </div>
+    </section>
+
+    <!-- Floating 3D Divs -->
+    <div class="floating-divs">
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles"></div>
+
+    <!-- Blog Section -->
+    <section class="section blog">
+        <div class="container">
+            <!-- Filter Buttons -->
+            <div class="blog-filters reveal">
+                <button class="filter-button active" data-category="all">All Posts</button>
+                <button class="filter-button" data-category="design">Design</button>
+             
+                <button class="filter-button" data-category="marketing">Marketing</button>
+                <button class="filter-button" data-category="business">Business</button>
+            </div>
+            
+            <div class="blog-container">
+                <!-- Main Blog Grid -->
+                <div class="blog-grid">
+                    <article class="blog-card reveal" data-category="design">
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category">Design</span>
+                            <a href="blog-single.html" class="blog-title">The Future of Web Design: Trends to Watch in 2024</a>
+                            <p class="blog-excerpt">Explore the cutting-edge design trends that are shaping the future of digital experiences and user interfaces.</p>
+                            <div class="blog-meta">
+                                <span>March 15, 2024</span>
+                                <span>5 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card reveal" data-category="development">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category">Development</span>
+                            <a href="blog-single.html" class="blog-title">Building Scalable Applications with Modern JavaScript</a>
+                            <p class="blog-excerpt">Learn the best practices and architectural patterns for building robust, scalable web applications.</p>
+                            <div class="blog-meta">
+                                <span>March 12, 2024</span>
+                                <span>8 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card reveal" data-category="marketing">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category">Marketing</span>
+                            <a href="blog-single.html" class="blog-title">Content Marketing Strategies That Actually Work</a>
+                            <p class="blog-excerpt">Discover proven content marketing techniques that drive engagement and conversion for modern businesses.</p>
+                            <div class="blog-meta">
+                                <span>March 10, 2024</span>
+                                <span>6 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card reveal" data-category="design">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category">Design</span>
+                            <a href="blog-single.html" class="blog-title">Color Psychology in Digital Design</a>
+                            <p class="blog-excerpt">Understanding how colors influence user behavior and emotions in digital interfaces.</p>
+                            <div class="blog-meta">
+                                <span>March 8, 2024</span>
+                                <span>7 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card reveal" data-category="business">
+                        <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category">Business</span>
+                            <a href="blog-single.html" class="blog-title">Scaling Your Creative Agency: Lessons Learned</a>
+                            <p class="blog-excerpt">Key insights and strategies for growing a creative agency while maintaining quality and culture.</p>
+                            <div class="blog-meta">
+                                <span>March 5, 2024</span>
+                                <span>10 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card reveal" data-category="development">
+                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category">Development</span>
+                            <a href="blog-single.html" class="blog-title">Introduction to Web3 and Decentralized Apps</a>
+                            <p class="blog-excerpt">A comprehensive guide to understanding Web3 technologies and building decentralized applications.</p>
+                            <div class="blog-meta">
+                                <span>March 3, 2024</span>
+                                <span>12 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card reveal" data-category="marketing">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category">Marketing</span>
+                            <a href="blog-single.html" class="blog-title">The Rise of Influencer Marketing in 2024</a>
+                            <p class="blog-excerpt">How influencer marketing is evolving and what it means for brands looking to connect with audiences.</p>
+                            <div class="blog-meta">
+                                <span>March 1, 2024</span>
+                                <span>6 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card reveal" data-category="design">
+                        <img src="https://images.unsplash.com/photo-1559028006-448665bd7c7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category">Design</span>
+                            <a href="blog-single.html" class="blog-title">Minimalism vs. Maximalism: Finding Balance</a>
+                            <p class="blog-excerpt">Exploring the ongoing debate between minimalist and maximalist approaches in modern design.</p>
+                            <div class="blog-meta">
+                                <span>February 28, 2024</span>
+                                <span>8 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card reveal" data-category="development">
+                        <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category">Development</span>
+                            <a href="blog-single.html" class="blog-title">Performance Optimization Techniques</a>
+                            <p class="blog-excerpt">Essential strategies for optimizing web application performance and user experience.</p>
+                            <div class="blog-meta">
+                                <span>February 25, 2024</span>
+                                <span>9 min read</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <!-- Sidebar -->
+                <aside class="blog-sidebar">
+                    <!-- Search Widget -->
+                    <div class="sidebar-widget reveal">
+                        <h3>Search</h3>
+                        <div class="search-form">
+                            <input type="search" placeholder="Search articles...">
+                            <button type="submit">🔍</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Categories Widget -->
+                    <div class="sidebar-widget reveal">
+                        <h3>Categories</h3>
+                        <ul class="categories-list">
+                            <li><a href="#">Design <span>(4)</span></a></li>
+                            <li><a href="#">Development <span>(3)</span></a></li>
+                            <li><a href="#">Marketing <span>(2)</span></a></li>
+                            <li><a href="#">Business <span>(1)</span></a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Recent Posts -->
+                    <div class="sidebar-widget reveal">
+                        <h3>Recent Posts</h3>
+                        <ul class="recent-posts">
+                            <li>
+                                <a href="blog-single.html">The Future of Web Design</a>
+                                <span>March 15, 2024</span>
+                            </li>
+                            <li>
+                                <a href="blog-single.html">Building Scalable Applications</a>
+                                <span>March 12, 2024</span>
+                            </li>
+                            <li>
+                                <a href="blog-single.html">Content Marketing Strategies</a>
+                                <span>March 10, 2024</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Tags Widget -->
+                    <div class="sidebar-widget reveal">
+                        <h3>Tags</h3>
+                        <div class="tags-cloud">
+                            <a href="#" class="tag">UI Design</a>
+                            <a href="#" class="tag">JavaScript</a>
+                            <a href="#" class="tag">SEO</a>
+                            <a href="#" class="tag">Branding</a>
+                            <a href="#" class="tag">UX</a>
+                            <a href="#" class="tag">React</a>
+                            <a href="#" class="tag">Marketing</a>
+                            <a href="#" class="tag">Web3</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Newsletter Widget -->
+                    <div class="sidebar-widget reveal">
+                        <h3>Newsletter</h3>
+                        <p>Subscribe to get the latest insights and updates delivered to your inbox.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit" class="cta-button">Subscribe</button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination reveal">
+                <a href="#" class="pagination-link">← Previous</a>
+                <a href="#" class="pagination-link active">1</a>
+                <a href="#" class="pagination-link">2</a>
+                <a href="#" class="pagination-link">3</a>
+                <a href="#" class="pagination-link">Next →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="reveal">Want to Collaborate?</h2>
+            <p class="reveal">Let's discuss your next creative project</p>
+            <a href="contact.html" class="cta-button reveal">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Inkvoice</h3>
+                    <p>Transforming ideas into digital experiences that inspire, engage, and convert.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Brand Design</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                    <p>hello@inkvoice.com</p>
+                    <p>+1 (555) 123-4567</p>
+                    <p>123 Creative Street<br>Design City, DC 12345</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Inkvoice. All rights reserved. Crafted with passion and creativity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">↑</a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Inkvoice Creative Agency</title>
+    <meta name="description" content="Explore our portfolio of award-winning web design, branding, and digital marketing projects">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">Inkvoice</a></div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 50vh; background-image: url('https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title" data-split-text>Our Portfolio</h1>
+            <p class="hero-subtitle">Explore our creative work and see how we bring ideas to life through design and technology</p>
+        </div>
+    </section>
+
+    <!-- Floating 3D Divs -->
+    <div class="floating-divs">
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles"></div>
+
+    <!-- Portfolio Filters -->
+    <section class="section">
+        <div class="container">
+            <div class="portfolio-filters reveal">
+                <button class="filter-button active" data-category="all">All Projects</button>
+                <button class="filter-button" data-category="web-design">Web Design</button>
+                <button class="filter-button" data-category="branding">Branding</button>
+                <button class="filter-button" data-category="mobile">Images</button>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="section portfolio">
+        <div class="container">
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal" data-category="web-design">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tech Startup Website" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Tech Startup Website</h3>
+                            <p class="portfolio-category">Web Design</p>
+                            <p class="portfolio-description">Modern, responsive website for a cutting-edge technology startup with advanced animations and user interactions.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">GSAP</span>
+                                <span class="tag">UI/UX</span>
+                            </div>
+                            <a href="#" class="portfolio-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1559028006-448665bd7c7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fashion Brand Identity" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Fashion Brand Identity</h3>
+                            <p class="portfolio-category">Branding</p>
+                            <p class="portfolio-description">Complete brand identity redesign for a luxury fashion brand, including logo, packaging, and digital presence.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Branding</span>
+                                <span class="tag">Logo Design</span>
+                                <span class="tag">Guidelines</span>
+                            </div>
+                            <a href="#" class="portfolio-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="mobile">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fitness Mobile App" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Fitness Mobile App</h3>
+                            <p class="portfolio-category">Mobile Development</p>
+                            <p class="portfolio-description">Cross-platform mobile application for fitness tracking with social features and personalized workout plans.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">React Native</span>
+                                <span class="tag">iOS</span>
+                                <span class="tag">Android</span>
+                            </div>
+                            <a href="#" class="portfolio-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="web-design">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="E-commerce Platform" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">E-commerce Platform</h3>
+                            <p class="portfolio-category">Web Development</p>
+                            <p class="portfolio-description">Full-featured e-commerce platform with advanced filtering, payment integration, and inventory management.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Next.js</span>
+                                <span class="tag">Stripe</span>
+                                <span class="tag">Node.js</span>
+                            </div>
+                            <a href="#" class="portfolio-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="marketing">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Digital Campaign" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Digital Campaign</h3>
+                            <p class="portfolio-category">Marketing</p>
+                            <p class="portfolio-description">Comprehensive digital marketing campaign for product launch with social media, email, and content strategy.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Marketing</span>
+                                <span class="tag">Social Media</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                            <a href="#" class="portfolio-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="web-design">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="SaaS Dashboard" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">SaaS Dashboard</h3>
+                            <p class="portfolio-category">UI/UX Design</p>
+                            <p class="portfolio-description">Complex data visualization dashboard for SaaS platform with real-time analytics and reporting features.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Dashboard</span>
+                                <span class="tag">Data Viz</span>
+                                <span class="tag">Vue.js</span>
+                            </div>
+                            <a href="#" class="portfolio-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="branding">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Restaurant Rebrand" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Restaurant Rebrand</h3>
+                            <p class="portfolio-category">Branding</p>
+                            <p class="portfolio-description">Complete rebranding for upscale restaurant chain including menu design, signage, and digital marketing materials.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Rebranding</span>
+                                <span class="tag">Print Design</span>
+                                <span class="tag">Digital</span>
+                            </div>
+                            <a href="#" class="portfolio-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="mobile">
+                    <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Banking App" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Banking App</h3>
+                            <p class="portfolio-category">Mobile Development</p>
+                            <p class="portfolio-description">Secure mobile banking application with biometric authentication, transfers, and financial planning tools.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Security</span>
+                                <span class="tag">FinTech</span>
+                            </div>
+                            <a href="#" class="portfolio-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal" data-category="marketing">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Content Strategy" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Content Strategy</h3>
+                            <p class="portfolio-category">Marketing</p>
+                            <p class="portfolio-description">Content marketing strategy and implementation for B2B software company with blog, whitepapers, and video content.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Content</span>
+                                <span class="tag">Strategy</span>
+                                <span class="tag">B2B</span>
+                            </div>
+                            <a href="#" class="portfolio-link">View Project →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Load More Button -->
+            <div class="portfolio-load-more reveal">
+                <button class="cta-button">Load More Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Project -->
+    <section class="section" style="background: var(--light);">
+        <div class="container">
+            <div class="featured-project reveal">
+                <h2 class="section-title">Featured Project</h2>
+                <p class="section-subtitle">Deep dive into our most award-winning work</p>
+                
+                <div class="featured-project-content">
+                    <div class="featured-project-visual">
+                        <div class="project-showcase">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Featured project" class="featured-image">
+                            <div class="project-gallery">
+                                <div class="gallery-thumb active">
+                                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Project thumbnail">
+                                </div>
+                                <div class="gallery-thumb">
+                                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Project thumbnail">
+                                </div>
+                                <div class="gallery-thumb">
+                                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Project thumbnail">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-project-details">
+                        <div class="project-header">
+                            <h3>Tech Startup Platform</h3>
+                            <div class="project-meta">
+                                <span class="project-category">Web Design</span>
+                                <span class="project-date">2024</span>
+                                <span class="project-award">🏆 Awwwards Site of the Day</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-description">
+                            <p>A revolutionary web platform for a technology startup that combines cutting-edge design with advanced functionality. This project showcases our ability to create immersive digital experiences that engage users and drive business results.</p>
+                            
+                            <p>The platform features advanced animations, real-time data visualization, and a seamless user experience across all devices. Our team worked closely with the client to understand their vision and deliver a solution that exceeded expectations.</p>
+                        </div>
+                        
+                        <div class="project-challenge">
+                            <h4>The Challenge</h4>
+                            <p>Create a digital presence that would establish the startup as an industry leader while providing an intuitive platform for their complex service offerings.</p>
+                        </div>
+                        
+                        <div class="project-solution">
+                            <h4>Our Solution</h4>
+                            <p>We developed a custom web application using modern technologies and design principles, focusing on performance, accessibility, and user experience.</p>
+                        </div>
+                        
+                        <div class="project-results">
+                            <h4>Results</h4>
+                            <div class="results-grid">
+                                <div class="result-item">
+                                    <div class="result-number">300%</div>
+                                    <div class="result-label">User Engagement</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-number">85%</div>
+                                    <div class="result-label">Conversion Rate</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-number">50%</div>
+                                    <div class="result-label">Page Load Speed</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-technologies">
+                            <h4>Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">GSAP</span>
+                                <span class="tech-tag">Framer Motion</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">Node.js</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-actions">
+                            <a href="#" class="cta-button">View Live Site</a>
+                            <a href="#" class="cta-button secondary">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title reveal">Client Testimonials</h2>
+            <p class="section-subtitle reveal">What our clients say about working with us</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial reveal">
+                    <p class="testimonial-text">"Inkvoice transformed our online presence completely. Their creative vision and technical expertise helped us establish our brand as a leader in our industry."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=60&q=80" alt="Client avatar" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"The team's attention to detail and innovative approach helped us stand out in a crowded market. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=60&q=80" alt="Client avatar" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Marketing Director, Fashion Forward</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"Working with Inkvoice was an incredible experience. They delivered beyond our expectations and continue to support our growth."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=60&q=80" alt="Client avatar" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Emma Davis</h4>
+                            <p>Founder, Green Earth Co.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="reveal">Ready to Start Your Project?</h2>
+            <p class="reveal">Let's create something extraordinary together</p>
+            <a href="contact.html" class="cta-button reveal">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Inkvoice</h3>
+                    <p>Transforming ideas into digital experiences that inspire, engage, and convert.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Brand Design</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                    <p>hello@inkvoice.com</p>
+                    <p>+1 (555) 123-4567</p>
+                    <p>123 Creative Street<br>Design City, DC 12345</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Inkvoice. All rights reserved. Crafted with passion and creativity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">↑</a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Inkvoice Creative Agency</title>
+    <meta name="description" content="Comprehensive digital services including brand design, web development, mobile apps, and digital marketing">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">Inkvoice</a></div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 50vh; background-image: url('https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?_gl=1*ci9ip9*_ga*NDc1NDU4MTU5LjE3NzE4MTkxMTQ.*_ga_8JE65Q40S6*czE3NzIxMDE1MjckbzgkZzEkdDE3NzIxMDE1OTAkajU5JGwwJGgw'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title" data-split-text>Our Services</h1>
+            <p class="hero-subtitle">Comprehensive digital solutions tailored to elevate your brand and drive growth</p>
+        </div>
+    </section>
+
+    <!-- Floating 3D Divs -->
+    <div class="floating-divs">
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles"></div>
+
+    <!-- Services Overview -->
+    <section class="section">
+        <div class="container">
+            <div class="services-intro reveal">
+                <h2 class="section-title">Transform Your Digital Presence</h2>
+                <p class="section-subtitle">We offer a comprehensive suite of services designed to help your business thrive in the digital landscape. From stunning visual design to robust technical solutions, we've got you covered.</p>
+            </div>
+
+            <!-- Main Services Grid -->
+            <div class="services-grid">
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-title">Brand Design</h3>
+                    <p class="service-description">Creating memorable brand identities that capture your essence and resonate with your audience through strategic visual storytelling.</p>
+                    <ul class="service-features">
+                        <li>Logo Design & Identity Systems</li>
+                        <li>Brand Guidelines & Style Guides</li>
+                        <li>Visual Strategy & Positioning</li>
+                        <li>Marketing Collateral Design</li>
+                    </ul>
+                    <a href="#brand-design" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">Building responsive, performant websites that deliver exceptional user experiences and drive business results.</p>
+                    <ul class="service-features">
+                        <li>Custom Website Development</li>
+                        <li>E-commerce Solutions</li>
+                        <li>CMS Development</li>
+                        <li>Progressive Web Apps</li>
+                    </ul>
+                    <a href="#web-development" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">📱</div>
+                    <h3 class="service-title">Mobile Apps</h3>
+                    <p class="service-description">Developing intuitive mobile applications that engage users on the go and provide seamless experiences across all devices.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android Development</li>
+                        <li>Cross-Platform Solutions</li>
+                        <li>UI/UX Design for Mobile</li>
+                        <li>App Store Optimization</li>
+                    </ul>
+                    <a href="#mobile-apps" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">🚀</div>
+                    <h3 class="service-title">Digital Marketing</h3>
+                    <p class="service-description">Strategic marketing campaigns that drive growth, increase brand awareness, and maximize your return on investment.</p>
+                    <ul class="service-features">
+                        <li>SEO & Content Marketing</li>
+                        <li>Social Media Marketing</li>
+                        <li>PPC & Advertising</li>
+                        <li>Email Marketing Campaigns</li>
+                    </ul>
+                    <a href="#digital-marketing" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">📊</div>
+                    <h3 class="service-title">Data Analytics</h3>
+                    <p class="service-description">Turning data into actionable insights to inform your business decisions and optimize your digital strategy.</p>
+                    <ul class="service-features">
+                        <li>Web Analytics & Reporting</li>
+                        <li>User Behavior Analysis</li>
+                        <li>Conversion Optimization</li>
+                        <li>Custom Dashboard Development</li>
+                    </ul>
+                    <a href="#data-analytics" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">🔧</div>
+                    <h3 class="service-title">Consulting</h3>
+                    <p class="service-description">Expert guidance to help you navigate the digital landscape with confidence and make informed strategic decisions.</p>
+                    <ul class="service-features">
+                        <li>Digital Strategy Consulting</li>
+                        <li>Technology Architecture</li>
+                        <li>Process Optimization</li>
+                        <li>Team Training & Workshops</li>
+                    </ul>
+                    <a href="#consulting" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Service Sections -->
+    <section class="section" style="background: var(--light);" id="brand-design">
+        <div class="container">
+            <div class="service-detail">
+                <div class="service-detail-content">
+                    <div class="service-detail-text reveal-left">
+                        <h2 class="service-detail-title">Brand Design Excellence</h2>
+                        <p class="service-detail-description">Your brand is more than just a logo – it's the story you tell and the promise you make to your customers. We create comprehensive brand identities that capture your unique essence and resonate deeply with your target audience.</p>
+                        
+                        <div class="service-benefits">
+                            <h3>Key Benefits</h3>
+                            <ul>
+                                <li>Stand out in a crowded marketplace</li>
+                                <li>Build emotional connections with customers</li>
+                                <li>Create consistent brand experiences</li>
+                                <li>Increase brand recognition and loyalty</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-process">
+                            <h3>Our Process</h3>
+                            <div class="process-steps">
+                                <div class="process-step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Discovery & Research</h4>
+                                        <p>We dive deep into your business, market, and audience to understand your unique position.</p>
+                                    </div>
+                                </div>
+                                <div class="process-step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Strategy & Concept</h4>
+                                        <p>We develop a strategic approach and creative concepts that align with your goals.</p>
+                                    </div>
+                                </div>
+                                <div class="process-step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Design & Refinement</h4>
+                                        <p>We create and iterate on designs until they perfectly capture your brand essence.</p>
+                                    </div>
+                                </div>
+                                <div class="process-step">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h4>Implementation & Launch</h4>
+                                        <p>We help you roll out your new brand across all touchpoints seamlessly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-detail-visual reveal-right">
+                        <img src="https://images.unsplash.com/photo-1559028006-448665bd7c7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Brand design process" class="service-detail-image">
+                        <div class="service-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">200+</div>
+                                <div class="stat-label">Brands Created</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">95%</div>
+                                <div class="stat-label">Client Satisfaction</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">48h</div>
+                                <div class="stat-label">Avg. Response Time</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="section">
+        <div class="container">
+            <div class="tech-stack reveal">
+                <h2 class="section-title">Technology Stack</h2>
+                <p class="section-subtitle">We leverage cutting-edge technologies to deliver exceptional results</p>
+                
+                <div class="tech-categories">
+                    <div class="tech-category">
+                        <h3>Frontend Development</h3>
+                        <div class="tech-icons">
+                            <span class="tech-icon">React</span>
+                            <span class="tech-icon">Vue.js</span>
+                            <span class="tech-icon">Angular</span>
+                            <span class="tech-icon">Next.js</span>
+                            <span class="tech-icon">TypeScript</span>
+                            <span class="tech-icon">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h3>Backend Development</h3>
+                        <div class="tech-icons">
+                            <span class="tech-icon">Node.js</span>
+                            <span class="tech-icon">Python</span>
+                            <span class="tech-icon">Ruby</span>
+                            <span class="tech-icon">PHP</span>
+                            <span class="tech-icon">GraphQL</span>
+                            <span class="tech-icon">REST APIs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h3>Mobile Development</h3>
+                        <div class="tech-icons">
+                            <span class="tech-icon">React Native</span>
+                            <span class="tech-icon">Flutter</span>
+                            <span class="tech-icon">Swift</span>
+                            <span class="tech-icon">Kotlin</span>
+                            <span class="tech-icon">Ionic</span>
+                            <span class="tech-icon">Xamarin</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-category">
+                        <h3>Design & Tools</h3>
+                        <div class="tech-icons">
+                            <span class="tech-icon">Figma</span>
+                            <span class="tech-icon">Adobe CC</span>
+                            <span class="tech-icon">Sketch</span>
+                            <span class="tech-icon">InVision</span>
+                            <span class="tech-icon">Zeplin</span>
+                            <span class="tech-icon">Framer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section" style="background: var(--light);">
+        <div class="container">
+            <div class="pricing-section reveal">
+                <h2 class="section-title">Flexible Pricing Plans</h2>
+                <p class="section-subtitle">Choose the plan that best fits your needs and budget</p>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Starter</h3>
+                            <div class="pricing-price">
+                                <span class="price-currency">$</span>
+                                <span class="price-amount">2,999</span>
+                                <span class="price-period">/project</span>
+                            </div>
+                            <p class="pricing-description">Perfect for small businesses and startups</p>
+                        </div>
+                        
+                        <ul class="pricing-features">
+                            <li>✓ Basic Brand Identity</li>
+                            <li>✓ 5-Page Website</li>
+                            <li>✓ Mobile Responsive Design</li>
+                            <li>✓ Basic SEO Setup</li>
+                            <li>✓ 2 Weeks Support</li>
+                            <li>✗ Custom Development</li>
+                            <li>✗ Advanced Analytics</li>
+                        </ul>
+                        
+                        <button class="pricing-button">Get Started</button>
+                    </div>
+                    
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3>Professional</h3>
+                            <div class="pricing-price">
+                                <span class="price-currency">$</span>
+                                <span class="price-amount">7,999</span>
+                                <span class="price-period">/project</span>
+                            </div>
+                            <p class="pricing-description">Ideal for growing businesses</p>
+                        </div>
+                        
+                        <ul class="pricing-features">
+                            <li>✓ Complete Brand Identity</li>
+                            <li>✓ 15-Page Website</li>
+                            <li>✓ Advanced UI/UX Design</li>
+                            <li>✓ SEO Optimization</li>
+                            <li>✓ 1 Month Support</li>
+                            <li>✓ Custom Development</li>
+                            <li>✓ Basic Analytics Setup</li>
+                        </ul>
+                        
+                        <button class="pricing-button">Get Started</button>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Enterprise</h3>
+                            <div class="pricing-price">
+                                <span class="price-currency">$</span>
+                                <span class="price-amount">Custom</span>
+                                <span class="price-period">/project</span>
+                            </div>
+                            <p class="pricing-description">Tailored solutions for large organizations</p>
+                        </div>
+                        
+                        <ul class="pricing-features">
+                            <li>✓ Premium Brand Strategy</li>
+                            <li>✓ Unlimited Pages</li>
+                            <li>✓ Enterprise-Grade Design</li>
+                            <li>✓ Advanced SEO & Marketing</li>
+                            <li>✓ 3 Months Support</li>
+                            <li>✓ Full Custom Development</li>
+                            <li>✓ Advanced Analytics & Reporting</li>
+                        </ul>
+                        
+                        <button class="pricing-button">Contact Sales</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section class="section">
+        <div class="container">
+            <div class="case-studies reveal">
+                <h2 class="section-title">Success Stories</h2>
+                <p class="section-subtitle">See how we've helped businesses like yours achieve their goals</p>
+                
+                <div class="case-study-grid">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Case study">
+                        </div>
+                        <div class="case-study-content">
+                            <h3>TechStart Rebrand</h3>
+                            <p>Complete brand transformation resulting in 300% increase in brand recognition.</p>
+                            <div class="case-study-results">
+                                <div class="result">
+                                    <span class="result-number">300%</span>
+                                    <span class="result-label">Brand Recognition</span>
+                                </div>
+                                <div class="result">
+                                    <span class="result-number">150%</span>
+                                    <span class="result-label">Lead Generation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Case study">
+                        </div>
+                        <div class="case-study-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>Custom e-commerce solution that increased online sales by 250% in 6 months.</p>
+                            <div class="case-study-results">
+                                <div class="result">
+                                    <span class="result-number">250%</span>
+                                    <span class="result-label">Sales Increase</span>
+                                </div>
+                                <div class="result">
+                                    <span class="result-number">85%</span>
+                                    <span class="result-label">Conversion Rate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="reveal">Ready to Transform Your Business?</h2>
+            <p class="reveal">Let's discuss how our services can help you achieve your goals</p>
+            <a href="contact.html" class="cta-button reveal">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Inkvoice</h3>
+                    <p>Transforming ideas into digital experiences that inspire, engage, and convert.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Brand Design</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                    <p>hello@inkvoice.com</p>
+                    <p>+1 (555) 123-4567</p>
+                    <p>123 Creative Street<br>Design City, DC 12345</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Inkvoice. All rights reserved. Crafted with passion and creativity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">↑</a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

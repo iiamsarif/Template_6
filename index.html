@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkvoice - Creative Digital Agency</title>
+    <meta name="description" content="Modern creative agency specializing in digital design, development, and brand strategy">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Inkvoice</div>
+            
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="assets/videos/7578613-sd_640_338_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title" data-split-text>Creative Digital Excellence</h1>
+            <p class="hero-subtitle">We craft stunning digital experiences that inspire, engage, and convert</p>
+            <a href="#about" class="cta-button">Discover Our Work</a>
+        </div>
+    </section>
+
+    <!-- Floating 3D Divs -->
+    <div class="floating-divs">
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+        <div class="floating-div"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles"></div>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">About Us</h2>
+            <p class="section-subtitle reveal">We're a team of creative minds dedicated to pushing the boundaries of digital design</p>
+            
+            <div class="about-content">
+                <div class="about-image reveal-left">
+                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Our team working together">
+                </div>
+                
+                <div class="about-text reveal-right">
+                    <h3>Transforming Ideas Into Digital Reality</h3>
+                    <p>With over a decade of experience in the digital space, we've helped countless brands establish their online presence and achieve remarkable growth. Our approach combines cutting-edge technology with creative storytelling to deliver experiences that resonate.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="150">150</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="98">98</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="12">12</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services">
+        <div class="container">
+            <h2 class="section-title reveal">Our Services</h2>
+            <p class="section-subtitle reveal">Comprehensive digital solutions tailored to your unique needs</p>
+            
+            <div class="services-grid">
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-title">Brand Design</h3>
+                    <p class="service-description">Creating memorable brand identities that capture your essence and resonate with your audience.</p>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">Building responsive, performant websites that deliver exceptional user experiences.</p>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">📱</div>
+                    <h3 class="service-title">Mobile Apps</h3>
+                    <p class="service-description">Developing intuitive mobile applications that engage users on the go.</p>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">🚀</div>
+                    <h3 class="service-title">Digital Marketing</h3>
+                    <p class="service-description">Strategic marketing campaigns that drive growth and maximize ROI.</p>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">📊</div>
+                    <h3 class="service-title">Data Analytics</h3>
+                    <p class="service-description">Turning data into actionable insights to inform your business decisions.</p>
+                </div>
+                
+                <div class="service-card reveal-scale">
+                    <div class="service-icon">🔧</div>
+                    <h3 class="service-title">Consulting</h3>
+                    <p class="service-description">Expert guidance to help you navigate the digital landscape with confidence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section portfolio">
+        <div class="container">
+            <h2 class="section-title reveal">Our Portfolio</h2>
+            <p class="section-subtitle reveal">Explore our latest projects and see how we bring ideas to life</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Web Design Project" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Tech Startup Website</h3>
+                        <p class="portfolio-category">Web Design</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal">
+                    <img src="https://images.unsplash.com/photo-1559028006-448665bd7c7f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Brand Identity Project" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Fashion Brand Identity</h3>
+                        <p class="portfolio-category">Branding</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mobile App Project" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Fitness Mobile App</h3>
+                        <p class="portfolio-category">Mobile Development</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="E-commerce Platform" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">E-commerce Platform</h3>
+                        <p class="portfolio-category">Web Development</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Marketing Campaign" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">Digital Campaign</h3>
+                        <p class="portfolio-category">Marketing</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item reveal">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="UI/UX Design" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3 class="portfolio-title">SaaS Dashboard</h3>
+                        <p class="portfolio-category">UI/UX Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section blog">
+        <div class="container">
+            <h2 class="section-title reveal">Latest Insights</h2>
+            <p class="section-subtitle reveal">Thoughts, trends, and tutorials from our team of experts</p>
+            
+            <div class="blog-grid">
+                <article class="blog-card reveal">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-category">Design</span>
+                        <a href="blog-single.html" class="blog-title">The Future of Web Design: Trends to Watch in 2024</a>
+                        <p class="blog-excerpt">Explore the cutting-edge design trends that are shaping the future of digital experiences and user interfaces.</p>
+                        <div class="blog-meta">
+                            <span>March 15, 2024</span>
+                            <span>5 min read</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card reveal">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-category">Development</span>
+                        <a href="blog-single.html" class="blog-title">Building Scalable Applications with Modern JavaScript</a>
+                        <p class="blog-excerpt">Learn the best practices and architectural patterns for building robust, scalable web applications.</p>
+                        <div class="blog-meta">
+                            <span>March 12, 2024</span>
+                            <span>8 min read</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card reveal">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog post image" class="blog-image">
+                    <div class="blog-content">
+                        <span class="blog-category">Marketing</span>
+                        <a href="blog-single.html" class="blog-title">Content Marketing Strategies That Actually Work</a>
+                        <p class="blog-excerpt">Discover proven content marketing techniques that drive engagement and conversion for modern businesses.</p>
+                        <div class="blog-meta">
+                            <span>March 10, 2024</span>
+                            <span>6 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title reveal">What Our Clients Say</h2>
+            <p class="section-subtitle reveal">Real feedback from real partners who've transformed their digital presence</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial reveal">
+                    <p class="testimonial-text">"Working with Inkvoice transformed our online presence completely. Their creative vision and technical expertise exceeded our expectations."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=60&q=80" alt="Client avatar" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"The team's attention to detail and innovative approach helped us stand out in a crowded market. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=60&q=80" alt="Client avatar" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Marketing Director, Fashion Forward</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"Inkvoice delivered beyond our expectations. They turned our vision into a stunning digital reality that drives results."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=60&q=80" alt="Client avatar" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Emma Davis</h4>
+                            <p>Founder, Green Earth Co.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="reveal">Ready to Transform Your Digital Presence?</h2>
+            <p class="reveal">Let's collaborate to create something extraordinary together</p>
+            <a href="contact.html" class="cta-button reveal">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Inkvoice</h3>
+                    <p>Transforming ideas into digital experiences that inspire, engage, and convert.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Brand Design</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                    <p>hello@inkvoice.com</p>
+                    <p>+1 (555) 123-4567</p>
+                    <p>123 Creative Street<br>Design City, DC 12345</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Inkvoice. All rights reserved. Crafted with passion and creativity.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">↑</a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
