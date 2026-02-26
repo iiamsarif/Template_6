@@ -1,6 +1,6 @@
-# Inkvoice - Creative Agency Website Template
+# LainTrans - Creative Agency Website Template
 
-A fully static, multi-page website template inspired by the Inkvoice creative blog/magazine theme. This template features modern editorial aesthetics, large typography, bold imagery, and clean grid layouts with advanced animations and interactions.
+A fully static, multi-page website template inspired by the LainTrans creative blog/magazine theme. This template features modern editorial aesthetics, large typography, bold imagery, and clean grid layouts with advanced animations and interactions.
 
 ## 🎨 Features
 
@@ -167,4 +167,4 @@ For questions or support, please refer to the code comments and documentation wi
 
 ---
 
-**Created with passion and creativity by the Inkvoice team** 🎨
+**Created with passion and creativity by the LainTrans team** 🎨
