@@ -1247,28 +1247,6 @@ body {
     height: 1px;
   }
   
-  /* Timeline mobile text wrapping fixes */
-  .timeline-content {
-    width: 90% !important;
-    max-width: 90% !important;
-    word-wrap: break-word !important;
-    overflow-wrap: break-word !important;
-    hyphens: auto !important;
-  }
-  
-  .timeline-content h3 {
-    word-wrap: break-word !important;
-    overflow-wrap: break-word !important;
-    font-size: 1.2rem !important;
-  }
-  
-  .timeline-content p {
-    word-wrap: break-word !important;
-    overflow-wrap: break-word !important;
-    max-width: 100% !important;
-    font-size: 0.9rem !important;
-  }
-  
   /* Blog Page Mobile Responsive Fixes */
   .blog-container {
     grid-template-columns: 1fr !important;
